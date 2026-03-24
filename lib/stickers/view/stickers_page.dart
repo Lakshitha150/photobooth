@@ -92,7 +92,7 @@ class StickersView extends StatelessWidget {
                   const Align(
                     alignment: Alignment.bottomCenter,
                     child: _StickerReminderText(),
-                  )
+                  ),
                 ],
               ),
             ),
@@ -289,7 +289,7 @@ class _RetakeConfirmationDialogContent extends StatelessWidget {
                     child: Text(
                       l10n.stickersRetakeConfirmationConfirmButtonText,
                     ),
-                  )
+                  ),
                 ],
               ),
             ],
@@ -377,7 +377,7 @@ class _NextConfirmationDialogContent extends StatelessWidget {
                     child: Text(
                       l10n.stickersNextConfirmationConfirmButtonText,
                     ),
-                  )
+                  ),
                 ],
               ),
             ],

@@ -94,7 +94,7 @@ class ShareBody extends StatelessWidget {
                   SizedBox(height: 30),
                 ],
               ),
-            )
+            ),
         ],
       ),
     );

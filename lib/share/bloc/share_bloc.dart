@@ -215,7 +215,7 @@ class ShareBloc extends Bloc<ShareEvent, ShareState> {
             position: Vector2D(l.position.dx, l.position.dy),
             size: Vector2D(l.size.width, l.size.height),
           ),
-        )
+        ),
       ],
     );
     return Uint8List.fromList(composite);

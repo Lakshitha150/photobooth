@@ -237,7 +237,7 @@ void main() {
         PhotoboothState(
           stickers: [
             PhotoAsset(id: '0', asset: Assets.props.first),
-            PhotoAsset(id: '1', asset: Assets.props.last)
+            PhotoAsset(id: '1', asset: Assets.props.last),
           ],
           image: image,
         ),

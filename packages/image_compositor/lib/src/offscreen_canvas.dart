@@ -140,7 +140,7 @@ class OffScreenCanvas {
       0,
       0,
       width,
-      height
+      height,
     ]);
   }
 

@@ -226,7 +226,7 @@ class LandscapeCharactersIconLayout extends StatelessWidget {
                   children: children,
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
@@ -264,7 +264,7 @@ class PortraitCharactersIconLayout extends StatelessWidget {
               if (state.isAnyCharacterSelected) return const SizedBox();
               return const CharactersCaption();
             },
-          )
+          ),
         ],
       ),
     );

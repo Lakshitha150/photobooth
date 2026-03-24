@@ -150,7 +150,7 @@ class _ConfirmationDialogContent extends StatelessWidget {
                     key: const Key('sharePage_retakeConfirm_elevatedButton'),
                     onPressed: () => Navigator.of(context).pop(true),
                     child: Text(l10n.shareRetakeConfirmationConfirmButtonText),
-                  )
+                  ),
                 ],
               ),
             ],

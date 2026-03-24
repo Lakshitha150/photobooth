@@ -15,7 +15,9 @@ class PlatformHelper {
     final userAgent = _window.navigator.userAgent.toLowerCase();
     if (userAgent.contains('iphone') ||
         userAgent.contains('android') ||
-        userAgent.contains('ipad')) return true;
+        userAgent.contains('ipad')) {
+      return true;
+    }
     return false;
   }
 }

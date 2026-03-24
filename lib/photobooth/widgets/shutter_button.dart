@@ -108,7 +108,7 @@ class CountdownTimer extends StatelessWidget {
             child: CustomPaint(
               painter: TimerPainter(animation: controller, countdown: seconds),
             ),
-          )
+          ),
         ],
       ),
     );

@@ -61,7 +61,7 @@ void main() {
           PhotoboothState(
             characters: const [PhotoAsset(id: '0', asset: Assets.android)],
             selectedAssetId: '0',
-          )
+          ),
         ],
       );
 
@@ -74,7 +74,7 @@ void main() {
           PhotoboothState(
             characters: const [PhotoAsset(id: '0', asset: Assets.dash)],
             selectedAssetId: '0',
-          )
+          ),
         ],
       );
 
@@ -89,7 +89,7 @@ void main() {
           PhotoboothState(
             characters: const [PhotoAsset(id: '0', asset: Assets.sparky)],
             selectedAssetId: '0',
-          )
+          ),
         ],
       );
 
@@ -164,7 +164,7 @@ void main() {
               ),
             ],
             selectedAssetId: '0',
-          )
+          ),
         ],
       );
     });
@@ -180,7 +180,7 @@ void main() {
           PhotoboothState(
             stickers: [PhotoAsset(id: '0', asset: Assets.props.first)],
             selectedAssetId: '0',
-          )
+          ),
         ],
       );
     });
@@ -216,7 +216,7 @@ void main() {
               ),
             ],
             selectedAssetId: '0',
-          )
+          ),
         ],
       );
     });
